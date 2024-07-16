@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "main.exe",
+                "-I",
+                "C:/Users/er-GOD-ic/Documents/VS Code/PDCurses-3.9",
+                "-L",
+                "C:/Users/er-GOD-ic/Documents/VS Code/PDCurses-3.9/wincon",
+                "main.cpp",
+                "-lpdcurses"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Program",
+            "type": "cppdbg", // デバッグ対象がC++の場合はcppdbgを指定
+            "request": "launch",
+            "program": "${workspaceFolder}/main.exe", // デバッグする実行可能ファイルのパス
+            "args": [], // プログラムに渡す引数（必要に応じて設定）
+            "stopAtEntry": false, // エントリーポイントで停止するかどうか
+            "cwd": "${workspaceFolder}", // プログラムを実行するカレントディレクトリ
+            "environment": [], // 環境変数の設定（必要に応じて設定）
+            "externalConsole": true, // 外部コンソールを使用するかどうか（Windowsではtrueにすることが多い）
+            "MIMode": "gdb", // 使用するデバッガ（gdbやlldbなど）
+            "setupCommands": [], // デバッガのセットアップコマンド（必要に応じて設定）
+            "preLaunchTask": "build" // 実行前に実行するタスク（tasks.jsonで設定したタスク名）
+        }
+    ]
+}
