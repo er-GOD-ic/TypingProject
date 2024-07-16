@@ -8,8 +8,6 @@
 #include "game.h"
 #include "gm.h"
 
-// これはコミットテストのコメントアウトです
-
 int main() {
     // rand の時刻初期化
     srand(static_cast<unsigned int>(time(nullptr)));
